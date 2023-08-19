@@ -1,11 +1,21 @@
 import './App.css'
+import About from './components/About';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
-function App() {
-  return (
-    <h1 className="text-2xl font-i ">
-      Hello world!
-    </h1>
-  )
+export default function App() {
+  return(
+    <main className="text-white bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Projects />
+      <Resume />
+      <Contact />
+    </main>
+  );
 }
+  
 
-export default App
+
