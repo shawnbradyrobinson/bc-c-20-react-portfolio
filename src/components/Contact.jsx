@@ -13,7 +13,7 @@ export default function Contact(){
                        <a href="https://www.linkedin.com/in/shawn-robinson-9aaa12170/">
                             <img 
                             className="w-100 h-28 object-cover"
-                            src="../../public/linkedin.png">
+                            src="/linkedin.png">
 
                             </img>
                        </a>
@@ -21,7 +21,7 @@ export default function Contact(){
                        <a href="www.github.com/shawnbradyrobinson">
                             <img 
                             className="w-full h-28 object-cover"
-                            src="../../public/GitHub-Mark.png">
+                            src="/GitHub-Mark.png">
 
                             </img>
                        </a>
